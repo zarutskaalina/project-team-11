@@ -85,6 +85,11 @@
     color: #ffffff;
   }
 
+  .scroll-down-title:hover,
+  .scroll-down-title:focus {
+    color: var(--accent-color);
+  }
+
   .scroll-down-btn {
     width: 28px;
     height: 28px;
@@ -93,8 +98,19 @@
     border-radius: 50%;
   }
 
+  .scroll-down-btn:hover,
+  .scroll-down-btn:focus {
+    background: var(--accent-color);
+  }
+
   .scroll-down-btn-icon {
     display: flex;
+    fill: var(--accent-color);
+  }
+
+  .scroll-down-btn-icon:hover,
+  .scroll-down-btn-icon:focus {
+    fill: #ffffff;
   }
 }
 
