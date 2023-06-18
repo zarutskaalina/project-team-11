@@ -1,0 +1,137 @@
+.how-its-made-heading {
+    margin-bottom: 32px;
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+    
+  }
+
+  @media screen and (min-width: 768px) {
+    .how-its-made-heading {
+      margin-bottom: 50px;
+      font-size: 24px;
+      line-height: 1.17;
+
+
+
+    }
+    
+  }
+
+  .how-its-made-heading-end {
+    color: #FD9222;
+
+  }
+
+  .how-its-made-flex-container {
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+}
+    
+
+  @media screen and (min-width: 1200px) {
+  .how-its-made-flex-container {
+    flex-direction: row;
+    gap: 20px
+  }}
+
+  @media screen and (max-width: 767px) {
+     .how-its-made-picture {
+    margin-bottom: 20px;
+  }
+  }
+
+ 
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .how-its-made-picture {
+    margin-bottom: 52px;
+  }
+  }
+  .how-its-made-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .how-its-made-list-container {
+    box-sizing: border-box;
+    background-color: var(--primary-text-color-theme-dark);
+    padding: 20px 14px;
+    border-radius: 15px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .how-its-made-list-container {
+      padding: 32px;
+    }
+    
+  }
+
+
+  .how-its-made-list-name {
+    max-width: 307px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;    
+    color: var(--primary-text-color-theme-light)
+  }
+
+  @media screen and (min-width: 768px) {
+    .how-its-made-list-name {
+        max-width: 350px;
+      margin-bottom: 28px;
+    
+    }
+  }
+
+
+  .how-its-made-item {
+    position: relative;
+    padding-left: 16px;
+    max-width: 307px;
+    font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+color: var(--primary-text-color-theme-light);
+  }
+
+  @media screen and (min-width: 768px) {
+    .how-its-made-item {
+      max-width: 480px;
+    }
+    
+  }
+
+  @media screen and (min-width: 1200px) {
+    .how-its-made-item {
+      max-width: 425px;
+    }
+    
+  }
+
+  .how-its-made-item::before {
+    position: absolute;
+    top: 5px;
+    left: 0;
+  display: block;                      
+  content: "";
+  width: 8px;
+  height: 8px;
+    background: #4C4C4C;
+    border: 1px solid #ECEDED;
+    border-radius: 50%;
+  }
+
+
+  .how-its-made-item:not(:last-child) {
+    margin-bottom: 18px;
+  }
+  
