@@ -44,7 +44,8 @@
     border-radius: 100px;
   }
 
-  .order-btn:hover {
+  .order-btn:hover,
+  .order-btn:focus {
     background: #fcf1e0;
     color: var(--accent-color);
   }
@@ -57,7 +58,8 @@
     background-color: transparent;
   }
 
-  .scroll-to-how-its-made-btn:hover {
+  .scroll-to-how-its-made-btn:hover,
+  .scroll-to-how-its-made-btn:focus {
     border: 1px solid var(--accent-color);
     color: var(--accent-color);
   }
