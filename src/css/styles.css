@@ -1,3 +1,5 @@
+@import 'unique-components.css';
+
 :root {
   --main-font-family: 'Montserrat', sans-serif;
   --accent-color: #fd9222;
