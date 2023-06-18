@@ -10,6 +10,7 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .advantages-section {
     width: 100%;
     padding-top: 20px;
@@ -39,23 +40,20 @@
 
 @media screen and (min-width: 375px) {
     .advantages-container {
-        max-width: 375px;
+        max-width: 308px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .advantages-container {
-        max-width: 768px;
+        max-width: 676px;
     }
-
-
 }
 
 @media screen and (min-width: 1200px) {
     .advantages-container {
-        max-width: 1200px;
+        max-width: 1100px;
     }
-
 }
 
 .advantages-list {
