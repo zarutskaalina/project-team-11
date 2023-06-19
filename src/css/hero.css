@@ -1,7 +1,4 @@
 @media screen and (min-width: 320px) {
-  .container {
-    margin-bottom: 71px;
-  }
   .hero-img {
     background: linear-gradient(
         180deg,
@@ -18,6 +15,7 @@
     flex-direction: column;
     justify-content: flex-end;
     padding-bottom: 21px;
+    margin-bottom: 71px;
   }
 
   .hero-img-wrapper {
@@ -120,7 +118,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container {
+  .hero-img {
     margin-bottom: 50px;
   }
 }
