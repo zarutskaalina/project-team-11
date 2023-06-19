@@ -249,14 +249,25 @@
 }
 
 /* FLIP CARD */
-.flip-card {
-  display: block;
-  background-color: transparent;
-  width: 335px;
-  height: 270px;
 
-  border-radius: 15px;
-  perspective: 1000px;
+@media screen and (min-width: 320px) {
+  .flip-card {
+    display: block;
+    background-color: transparent;
+    width: 290px;
+    height: 270px;
+
+    border-radius: 15px;
+    perspective: 1000px;
+
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .flip-card {
+    width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {
