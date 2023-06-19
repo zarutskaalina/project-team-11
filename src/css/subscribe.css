@@ -1,4 +1,7 @@
 /*===========================================================*/
+.subscribe-hidden {
+    visibility: hidden;
+}
 
 .subscribe {
     background-image: linear-gradient(0deg,

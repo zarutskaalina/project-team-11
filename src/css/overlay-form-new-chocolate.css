@@ -1,9 +1,7 @@
 /*===========================================================*/
 
 /*==========================subscribe-modal==========================*/
-.hidden {
-    visibility: hidden;
-} 
+
 
 .subscribe-backdrop {
     position: fixed;
@@ -79,11 +77,12 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 }
 
 .subscribe-form-input {
-    min-width: 263px;
+    width: 190px;
     height: 45px;
     border: 1.5px solid rgba(17, 17, 17, 0.05);
     border-radius: 100px;
-    padding: 15px;
+    padding: 15px 38px 15px 15px;
+    
 }
 
 .subscribe-form-input::placeholder {
