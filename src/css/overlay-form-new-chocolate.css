@@ -1,9 +1,9 @@
 /*===========================================================*/
 
 /*==========================subscribe-modal==========================*/
-/* .hidden {
+.hidden {
     visibility: hidden;
-}  */
+} 
 
 .subscribe-backdrop {
     position: fixed;
@@ -111,6 +111,12 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     text-align: center;
     color: var(--primary-text-color-theme-dark);
     padding: 14px 28px;
+}
+
+.subscribe-form-btn:hover,
+.subscribe-form-btn:focus {
+    color: var(--accent-color);
+    background-color: #FCF1E0;
 }
 
 @media screen and (max-width: 767px) {
