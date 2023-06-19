@@ -1,0 +1,184 @@
+@media screen and (min-width: 320px) {
+  .container {
+    margin-bottom: 71px;
+  }
+  .hero-img {
+    background: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      url(../hero.img/hero-bg-chocolate-covered-cocoa-powder_mobile@2x.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 621px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 21px;
+  }
+
+  .hero-img-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .hero-img-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.2;
+    color: #ffffff;
+  }
+
+  .hero-buttons-wrapper {
+    display: flex;
+    margin-top: 32px;
+    gap: 14px;
+  }
+
+  .order-btn {
+    width: 120px;
+    height: 41px;
+    background: var(--accent-color);
+    border: none;
+    border-radius: 100px;
+  }
+
+  .order-btn:hover,
+  .order-btn:focus {
+    background: #fcf1e0;
+    color: var(--accent-color);
+  }
+
+  .scroll-to-how-its-made-btn {
+    width: 159px;
+    height: 41px;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    background-color: transparent;
+  }
+
+  .scroll-to-how-its-made-btn:hover,
+  .scroll-to-how-its-made-btn:focus {
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+  }
+
+  .hero-menu-button-text {
+    font-family: var(--main-font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+
+  .hero-scroll-down-wrapper {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-top: 32px;
+  }
+
+  .scroll-down-title {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.17;
+    color: #ffffff;
+  }
+
+  .scroll-down-title:hover,
+  .scroll-down-title:focus {
+    color: var(--accent-color);
+  }
+
+  .scroll-down-btn {
+    width: 28px;
+    height: 28px;
+    background: #ffffff;
+    border: none;
+    border-radius: 50%;
+  }
+
+  .scroll-down-btn:hover,
+  .scroll-down-btn:focus {
+    background: var(--accent-color);
+  }
+
+  .scroll-down-btn-icon {
+    display: flex;
+    fill: var(--accent-color);
+  }
+
+  .scroll-down-btn-icon:hover,
+  .scroll-down-btn-icon:focus {
+    fill: #ffffff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    background-image: url(../hero.img/hero-img-chocolate-covered-cocoa-powder_table@2x.png);
+    background-size: cover;
+    background-position: center;
+    width: 704px;
+    height: 890px;
+  }
+
+  .hero-img-wrapper {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .hero-img-title {
+    margin-right: 180px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 1.21;
+  }
+
+  .hero-menu-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .order-btn {
+    width: 144px;
+    height: 45px;
+  }
+
+  .scroll-to-how-its-made-btn {
+    width: 183px;
+    height: 45px;
+    margin-right: 153px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-img {
+    background-image: url(../hero.img/hero-img-chocolate-covered-cocoa-powder_desktop@2x.png);
+    background-size: cover;
+    background-position: center;
+    width: 1136px;
+    height: 600px;
+  }
+
+  .scroll-to-how-its-made-btn {
+    margin-right: 585px;
+  }
+
+  .hero-img-title {
+    margin-right: 612px;
+  }
+}

@@ -1,0 +1,361 @@
+.unique_components {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  .unique_components {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .unique_components {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+}
+
+.section-title {
+  font-family: var(--main-font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 1.17;
+  text-transform: uppercase;
+  color: var(--primary-text-color-theme-light);
+  max-width: 283px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title {
+    max-width: 336px;
+    margin-bottom: 28px;
+
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-title {
+    max-width: 411px;
+  }
+}
+
+.accent-word {
+  color: var(--accent-color);
+}
+
+.components-text {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--primary-text-color-theme-light);
+
+  max-width: 335px;
+  margin-right: auto;
+  margin-left: auto;
+
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .components-text {
+    max-width: 486px;
+    margin-bottom: 50px;
+  }
+}
+
+.components-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .components-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .components-list {
+    flex-wrap: nowrap;
+    column-gap: 19px;
+    row-gap: 0;
+  }
+}
+
+.components-item {
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .components-item {
+    width: calc((100% - 32px) / 2);
+    max-width: 336px;
+  }
+  /* Переопределяю порядок для планшетной версии */
+
+  .components-item:nth-child(1) {
+    order: 1;
+  }
+
+  .components-item:nth-child(2) {
+    order: 3;
+  }
+
+  .components-item:nth-child(3) {
+    order: 4;
+  }
+
+  .components-item:nth-child(4) {
+    order: 2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .components-item {
+    width: calc((100% - 57px) / 4);
+    max-width: 270px;
+  }
+}
+
+.components-item-img-front {
+  width: 224px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.component-caption {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  padding-left: 28px;
+
+  text-align: left;
+}
+
+.component-caption-light {
+  color: var(--primary-text-color-theme-dark);
+}
+
+.component-caption-dark {
+  color: var(--primary-text-color-theme-light);
+}
+
+.component-title {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  text-align: left;
+  color: var(--primary-text-color-theme-light);
+
+  margin-bottom: 8px;
+}
+
+.component-tag-list {
+  display: flex;
+
+  margin-bottom: 14px;
+}
+.component-tag-item {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.2;
+  text-align: left;
+
+  border-radius: 35px;
+
+  margin-right: 6px;
+  padding: 6px 16px;
+}
+
+.component-tag-item-color {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.component-tag-item-transparent {
+  background-color: #fafafa;
+  color: var(--primary-text-color-theme-light);
+  border: 1px solid var(--accent-color);
+}
+
+.components-picture {
+  width: 224px;
+  height: 171px;
+  margin-bottom: 25px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .components-picture {
+    width: 206px;
+    height: 160px;
+    margin-bottom: 36px;
+  }
+}
+
+.component-descr {
+  display: inline-block;
+  text-align: justify;
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+
+  color: var(--primary-text-color-theme-light);
+
+  /* Делаем 3 точки в конце текста. Он получится обрезанным */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+}
+
+@media screen and (min-width: 1200px) {
+  .component-descr {
+    /* Делаем 3 точки в конце текста для desktop. Он получится обрезанным */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+  }
+}
+
+/* FLIP CARD */
+
+@media screen and (min-width: 320px) {
+  .flip-card {
+    display: block;
+    background-color: transparent;
+    width: 290px;
+    height: 270px;
+
+    border-radius: 15px;
+    perspective: 1000px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .flip-card {
+    width: 335px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flip-card {
+    width: 336px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .flip-card {
+    width: 270px;
+  }
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.components-item-img-front,
+.components-item-img-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+
+  /* если в карточке будет много текста, 
+  то можно будет добавить прокручивание
+  overflow-y: scroll; */
+}
+
+/* Style the front side (fallback if image is missing) */
+.components-item-img-front {
+  color: black;
+
+  background: var(--primary-text-color-theme-dark);
+  border: 1px solid var(--accent-color);
+  border-radius: 15px;
+}
+
+.item-accent {
+  background: var(--accent-color);
+}
+
+.item-accent-dark {
+  background: #1e1823;
+  border-color: transparent;
+}
+
+/* Style the back side */
+.components-item-img-back {
+  background-color: var(--primary-text-color-theme-dark);
+  color: var(--primary-text-color-theme-light);
+  transform: rotateY(180deg);
+
+  padding: 28px;
+}
+
+@media screen and (min-width: 1200px) {
+  .components-item-img-back {
+    padding: 20px;
+  }
+}
