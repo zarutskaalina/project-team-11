@@ -63,7 +63,7 @@ body {
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 100%;
+    /* width: 375px; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -71,7 +71,7 @@ body {
 
 @media screen and (max-width: 375px) {
   .container {
-    width: 375px;
+    width: 100%;
   }
 }
 
