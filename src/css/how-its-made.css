@@ -71,6 +71,8 @@
   position: relative;
   max-width: 335px;
   height: 500px;
+  margin-bottom: 20px;
+
   overflow: hidden;
   border-radius: 15px;
 }
@@ -86,6 +88,7 @@
   .how-its-made-video-thumb {
     max-width: 600px;
     height: 400px;
+    margin-bottom: 0;
   }
 }
 
