@@ -1,4 +1,16 @@
-@import url('./how-its-made.css');
+@import url('../css/header.css');
+@import url('../css/hero.css');
+@import url('../css/advanteges.css');
+@import url('../css/unique-components.css');
+@import url("../css/how-it's-made.css");
+@import url('../css/our-products.css');
+@import url('../css/top-sellers.css');
+@import url('../css/review.css');
+@import url('../css/subscribe.css');
+@import url('../css/footer.css');
+@import url('../css/overlay-form-order.css');
+@import url('../css/overlay-form-review.css');
+@import url('../css/overlay-form-new-chocolate.css');
 
 :root {
   --main-font-family: 'Montserrat', sans-serif;
@@ -51,7 +63,7 @@ body {
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 100%;
+    /* width: 375px; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -59,7 +71,7 @@ body {
 
 @media screen and (max-width: 375px) {
   .container {
-    width: 375px;
+    width: 100%;
   }
 }
 
