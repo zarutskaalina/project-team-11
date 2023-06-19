@@ -246,17 +246,44 @@
   letter-spacing: -0.02em;
 
   color: var(--primary-text-color-theme-light);
+
+  /* Делаем 3 точки в конце текста. Он получится обрезанным */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+}
+
+@media screen and (min-width: 1200px) {
+  .component-descr {
+    /* Делаем 3 точки в конце текста для desktop. Он получится обрезанным */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+  }
 }
 
 /* FLIP CARD */
-.flip-card {
-  display: block;
-  background-color: transparent;
-  width: 335px;
-  height: 270px;
 
-  border-radius: 15px;
-  perspective: 1000px;
+@media screen and (min-width: 320px) {
+  .flip-card {
+    display: block;
+    background-color: transparent;
+    width: 290px;
+    height: 270px;
+
+    border-radius: 15px;
+    perspective: 1000px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .flip-card {
+    width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {
