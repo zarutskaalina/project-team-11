@@ -69,7 +69,7 @@
 
 .how-its-made-video-thumb {
   position: relative;
-  width: 335px;
+  max-width: 335px;
   height: 500px;
   overflow: hidden;
   border-radius: 15px;
@@ -77,14 +77,14 @@
 
 @media screen and (min-width: 768px) {
   .how-its-made-video-thumb {
-    width: 614px;
+    max-width: 614px;
     height: 400px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .how-its-made-video-thumb {
-    width: 600px;
+    max-width: 600px;
     height: 400px;
   }
 }
