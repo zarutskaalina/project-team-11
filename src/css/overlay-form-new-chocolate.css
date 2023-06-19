@@ -1,4 +1,3 @@
-/*===========================================================*/
 
 /*==========================subscribe-modal==========================*/
 
@@ -119,6 +118,9 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 }
 
 @media screen and (max-width: 767px) {
+    .subscribe-modal {
+        width: 311px;
+    }
     .subscribe-form {
         position: relative;
     }
@@ -132,7 +134,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 @media screen and (min-width: 768px) {
 
     .subscribe-modal {
-        padding: 236px 40px 40px 40px;
+        /* padding: 236px 40px 40px 40px; */
         background-image: url('../images/sabscribe-images/sabscribe-modal/sabscribe-modal-tablet-img@1x.jpg');
     }
 
@@ -150,6 +152,11 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         font-size: 24px;
         line-height: 1.17;
         margin-bottom: 28px;
+    }
+
+    .subscribe-form-input {
+        width: 263px;
+        padding: 15px 15px 15px 15px;
     }
 
     .subscribe-form-btn {
