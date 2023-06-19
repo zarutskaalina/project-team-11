@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-@import 'unique-components.css';
-=======
 @import url('../css/header.css');
 @import url('../css/hero.css');
 @import url('../css/advanteges.css');
@@ -14,7 +11,6 @@
 @import url('../css/overlay-form-order.css');
 @import url('../css/overlay-form-review.css');
 @import url('../css/overlay-form-new-chocolate.css');
->>>>>>> bdf348f38f382de4d98eca6d4819e92c9fbd724b
 
 :root {
   --main-font-family: 'Montserrat', sans-serif;
