@@ -1,0 +1,118 @@
+.hidden-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages-section {
+  padding-top: 20px;
+  padding-bottom: 36px;
+  background-color: #1e1823;
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+  padding-left: 5px;
+  padding-right: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-section {
+    padding-top: 20px;
+    padding-bottom: 36px;
+  }
+
+  .advantages-list {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-left: 17px;
+    padding-right: 0px;
+  }
+
+  .advantages-item {
+    flex-basis: calc(50% - 60px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .advantages-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .advantages-list {
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 70px;
+    flex-wrap: nowrap;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .advantages-item {
+    position: relative;
+  }
+
+  .advantages-item::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -18px;
+    transform: translateY(-50%);
+    height: 124px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .advantages-item:last-child::after {
+    display: none;
+  }
+}
+
+.advantages-icon {
+  width: 62px;
+  height: 60px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages-icon-item {
+  width: 28px;
+  height: 28px;
+}
+
+.advantages-title {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 22px;
+  padding-bottom: 18px;
+}
+
+.advantages-text {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
