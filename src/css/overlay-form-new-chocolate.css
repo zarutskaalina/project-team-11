@@ -155,13 +155,15 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     }
 
     .subscribe-form-input {
-        width: 263px;
+        width: 313px;
+        height: 52px;
         padding: 15px 15px 15px 15px;
     }
 
     .subscribe-form-btn {
         margin-left: 8px;
         min-width: 137px;
+        height: 52px;
     }
 }
 
