@@ -262,7 +262,12 @@
 /* ========================= Styles for Desktop ===================== */
 @media screen and (min-width: 1200px) {
   .header-container {
-    padding: 24px 32px 32px 32px;
+    width: 1136px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
   }
   .mobile-menu-icon {
     display: none;
@@ -278,13 +283,14 @@
     letter-spacing: -0.03em;
   }
 
-  .desktop-menu-list-header,
-  .desktop-social-list-header {
+  .desktop-menu-list-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 24px;
+    margin-left: 188px;
+    margin-right: 137px;
   }
 
   .desktop-social-list-header {
@@ -322,5 +328,10 @@
   .logo-header:hover {
     transform: scale(1.25);
     transition: transform 250ms ease-in-out;
+  }
+
+  .logo-units:hover,
+  .logo-units:focus {
+    color: var(--accent-color);
   }
 }
