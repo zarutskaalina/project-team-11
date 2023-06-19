@@ -246,6 +246,13 @@
   letter-spacing: -0.02em;
 
   color: var(--primary-text-color-theme-light);
+
+  /* Делаем 3 точки в конце текста. Он получится обрезанным */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
 }
 
 /* FLIP CARD */
@@ -260,7 +267,8 @@
     border-radius: 15px;
     perspective: 1000px;
 
-    overflow-y: scroll;
+    /* Вместо ... в конце можно сделать просто scroll
+    overflow-y: scroll; */
   }
 }
 
