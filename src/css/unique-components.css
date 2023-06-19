@@ -23,14 +23,12 @@
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: -0.03em;
+  letter-spacing: 1.17;
   text-transform: uppercase;
   color: var(--primary-text-color-theme-light);
-
   max-width: 283px;
   margin-right: auto;
   margin-left: auto;
-
   margin-bottom: 24px;
 }
 
@@ -59,7 +57,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28;
+  line-height: 18px;
   text-align: center;
   letter-spacing: -0.02em;
   color: var(--primary-text-color-theme-light);
