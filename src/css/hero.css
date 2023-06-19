@@ -1,4 +1,7 @@
 @media screen and (min-width: 320px) {
+  .container {
+    margin-bottom: 71px;
+  }
   .hero-img {
     background: linear-gradient(
         180deg,
@@ -113,6 +116,12 @@
   .scroll-down-btn-icon:hover,
   .scroll-down-btn-icon:focus {
     fill: #ffffff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-bottom: 50px;
   }
 }
 
