@@ -76,10 +76,13 @@
   }
 
   .hero-scroll-down-wrapper {
+    margin-top: 32px;
+  }
+
+  .hero-scroll-down-item {
     display: flex;
     align-items: baseline;
     gap: 12px;
-    margin-top: 32px;
   }
 
   .scroll-down-title {
