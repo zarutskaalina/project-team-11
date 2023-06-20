@@ -6,8 +6,6 @@
 
 .section-footer {
   background-color: var(--secondary-bcg-color);
-  padding: 50px 32px;
-  font-family: Montserrat;
 }
 
 @media (min-width: 768px) {
@@ -15,9 +13,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-}
 
-@media (min-width: 768px) {
   .footer-social-address-tablet {
     display: flex;
     align-items: center;
@@ -25,7 +21,6 @@
 }
 
 .footer-paragraph {
-  font-family: Montserrat;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.17;
