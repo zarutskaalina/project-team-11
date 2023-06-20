@@ -20,6 +20,10 @@
   --hover-buttons-color: #fcf1e0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .list {
   list-style: none;
 }
