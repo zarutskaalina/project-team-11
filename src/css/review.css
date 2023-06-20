@@ -112,6 +112,7 @@
   }
   .review-list {
     column-gap: 16px;
+    flex-wrap: nowrap;
   }
   .review-item {
     max-width: 344px;
