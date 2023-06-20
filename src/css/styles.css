@@ -28,6 +28,10 @@
   text-decoration: none;
 }
 
+body {
+  background: #fafafa;
+}
+
 button {
   cursor: pointer;
 }
