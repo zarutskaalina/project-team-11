@@ -63,9 +63,14 @@ body {
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 375px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
   }
 }
 
