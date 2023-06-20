@@ -16,6 +16,8 @@
     justify-content: flex-end;
     padding-bottom: 21px;
     margin-bottom: 71px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hero-img-wrapper {
