@@ -50,9 +50,15 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .how-its-made-picture {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .how-its-made-list-container {
+    margin-top: 20px;
   }
 }
 
@@ -118,7 +124,6 @@
 @media screen and (min-width: 768px) {
   .how-its-made-list-container {
     max-width: 614px;
-
     padding: 32px;
   }
 }
