@@ -4,38 +4,6 @@
   --brand-color: #fd9222;
 }
 
-<<<<<<< HEAD
-=======
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-
->>>>>>> 0f1a22f9acdd421a2d64a0b016d5c41956bd73cb
 .section-footer {
   background-color: var(--secondary-bcg-color);
   padding: 50px 32px;
@@ -46,7 +14,6 @@ ol {
   .section-footer {
     padding-top: 50px;
     padding-bottom: 50px;
- 
   }
 }
 
@@ -65,7 +32,6 @@ ol {
   letter-spacing: -0.02em;
   color: var(--main-white-color);
   max-width: 300px;
-  
 }
 
 @media (min-width: 768px) {
@@ -82,7 +48,6 @@ ol {
 @media (min-width: 768px) {
   .footer-social-address-container {
     margin-left: 124px;
- 
   }
 }
 
