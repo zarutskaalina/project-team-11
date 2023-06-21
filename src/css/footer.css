@@ -6,6 +6,9 @@
 
 .section-footer {
   background-color: var(--secondary-bcg-color);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 @media (min-width: 768px) {
@@ -42,7 +45,7 @@
 
 @media (min-width: 768px) {
   .footer-social-address-container {
-    margin-left: 124px;
+    margin-left: auto;
   }
 }
 
@@ -192,6 +195,11 @@
   display: flex;
 
   transition: stroke 250ms cubic-bezier(0.95, 0.03, 0.67, 1.07);
+}
+
+.footer-social-link:hover .footer-social-item,
+.footer-social-link:focus .footer-social-item {
+  stroke: var(--brand-color);
 }
 
 .footer-social-item {
