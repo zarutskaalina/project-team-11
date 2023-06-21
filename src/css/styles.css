@@ -1,4 +1,3 @@
-
 @import url('../css/subscribe.css');
 @import url('../css/overlay-form-new-chocolate.css');
 
@@ -15,7 +14,6 @@
 @import url('../css/overlay-form-order.css');
 @import url('../css/overlay-form-review.css');
 @import url('../css/overlay-form-new-chocolate.css');
-
 
 :root {
   --main-font-family: 'Montserrat', sans-serif;
@@ -70,8 +68,8 @@ body {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 @media screen and (min-width: 320px) {
