@@ -69,23 +69,29 @@
 
 .how-its-made-video-thumb {
   position: relative;
-  max-width: 335px;
+  width: 100%;
   height: 500px;
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 15px;
 }
 
+@media screen and (min-width: 375px) {
+  .how-its-made-video-thumb {
+    width: 335px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .how-its-made-video-thumb {
-    max-width: 614px;
+    width: 614px;
     height: 400px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .how-its-made-video-thumb {
-    max-width: 600px;
+    width: 600px;
     height: 400px;
     margin-bottom: 0;
   }
