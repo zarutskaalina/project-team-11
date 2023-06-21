@@ -81,24 +81,26 @@ body {
 
 @media screen and (min-width: 375px) {
   .container {
-    width: 311px;
+    width: 375px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .container {
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 704px;
+    width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1136px;
+    width: 1200px;
   }
 }
