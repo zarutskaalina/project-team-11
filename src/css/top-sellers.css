@@ -49,7 +49,11 @@
 
 /*=============== mobile ============*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+  .top-sellers {
+    margin-bottom: 72px;
+  }
+
   .top-sellers-title {
     font-size: 20px;
     line-height: 1.2;
@@ -96,6 +100,10 @@
 /*================= tablet =============*/
 
 @media screen and (min-width: 768px) {
+  .top-sellers {
+    margin-bottom: 100px;
+  }
+
   .top-sellers-mobile-text {
     display: none;
   }
@@ -107,6 +115,7 @@
   .top-sellers-images-list {
     gap: 16px;
     flex-basis: calc((100% - 16px) / 2);
+    justify-content: space-between;
     margin-bottom: 32px;
   }
 
@@ -128,12 +137,20 @@
 /*================== desctop ============*/
 
 @media screen and (min-width: 1200px) {
+  .top-sellers {
+    margin-bottom: 128px;
+  }
+
   .top-sellers-image-item-bar {
     display: flex;
   }
 
   .top-sellers-text {
     min-width: 407px;
+  }
+
+  .top-sellers-images-list {
+    flex-basis: calc((100% - 32px) / 3);
   }
 
   .open-form-buy-button:hover,
