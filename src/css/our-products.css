@@ -22,13 +22,25 @@
 
   color: var(--primary-text-color-theme-light);
 }
-.our-products .swiper {
+.our-products .swiper1 {
   padding-bottom: 33px;
 }
 
 .our-products .swiper1 {
   width: 100%;
   min-height: 300px;
+}
+
+.swiper1,
+swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: block;
 }
 
 .our-products-title-part2 {
