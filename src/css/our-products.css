@@ -23,7 +23,7 @@
   color: var(--primary-text-color-theme-light);
 }
 .our-products .swiper {
-  padding: 33px;
+  padding-bottom: 33px;
 }
 
 .our-products .swiper1 {
@@ -39,7 +39,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  width: 335px;
+  width: 100%;
   background: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
@@ -123,6 +123,12 @@
   border-radius: 25px;
   width: 28px;
   background: var(--accent-color);
+}
+
+@media screen and (min-width:375) {
+  .our-products-item {
+    width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {
