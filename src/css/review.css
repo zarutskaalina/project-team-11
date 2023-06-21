@@ -43,12 +43,14 @@
   .review-card-img {
     width: 100%;
     position: relative;
-    left: 127px;
+    /* left: 127px; */
     top: -270px;
     max-width: 80px;
     max-height: 80px;
     border: none;
     border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%);
   }
   .review-card-name {
     font-weight: 600;
@@ -161,6 +163,8 @@
   }
   .review-card-img {
     bottom: 225px;
+    left: 50%;
+    transform: translate(-50%);
   }
   .review-card-img1 {
     bottom: 280px;
@@ -219,6 +223,10 @@
   }
   .review-card-text {
     padding: 0 24px;
+  }
+  .review-card-img {
+    left: 48%;
+    transform: translate(-50%);
   }
   .review-buttom {
     font-size: 18px;
