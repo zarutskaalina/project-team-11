@@ -9,21 +9,24 @@
     clickable: true,
   },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+  // // Navigation arrows
+  // navigation: {
+  //   nextEl: '.swiper-button-next',
+  //   prevEl: '.swiper-button-prev',
+  // },
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+  // // And if we need scrollbar
+  // scrollbar: {
+  //   el: '.swiper-scrollbar',
+  // },
 
   //Slide per View 768px - 2.5 1200px - 4
   slidesPerView: "auto",
-  spaceBetween: 18,
-    
+   spaceBetween: 16,
+
+  //Slide per 1200px - 4
+  slidesPerView: "auto",
+   spaceBetween: 28,
  })
   
 // // Slider ver 2.0
