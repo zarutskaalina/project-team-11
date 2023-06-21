@@ -2,7 +2,7 @@
   position: relative;
   margin-bottom: 72px;
   padding-top: 0;
-  padding-bottom: 33px;
+  /* padding-bottom: 33px; */
 
   text-align: center;
 }
@@ -22,8 +22,11 @@
 
   color: var(--primary-text-color-theme-light);
 }
+.our-products .swiper {
+  padding: 33px;
+}
 
-.swiper {
+.our-products .swiper1 {
   width: 100%;
   min-height: 300px;
 }
