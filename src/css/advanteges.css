@@ -13,7 +13,7 @@
 
 .advantages-section {
   padding-top: 20px;
-  padding-bottom: 36px;
+  padding-bottom: 20px;
   background-color: #1e1823;
 }
 
@@ -26,8 +26,8 @@
 
 @media screen and (min-width: 768px) {
   .advantages-section {
-    padding-top: 20px;
-    padding-bottom: 36px;
+    padding-top: 50px;
+    padding-bottom: 86px;
   }
 
   .advantages-list {
@@ -36,10 +36,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 60px;
+    padding-right: 0px;
   }
 
   .advantages-item {
-    flex-basis: calc(50% - 60px);
+    flex-basis: calc(50% - 32px);
   }
 }
 
@@ -54,8 +55,8 @@
     flex-direction: row;
     gap: 70px;
     flex-wrap: nowrap;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 28px;
+    padding-right: 28px;
   }
 
   .advantages-item {
