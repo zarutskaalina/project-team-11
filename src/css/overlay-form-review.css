@@ -28,22 +28,22 @@
   visibility: visible;
 }
 .review-button-close {
-  position: absolute;
-  /* width: 28px;
-  height: 28px; */
-  cursor: pointer;
+  display: block;
+  margin-left: auto;
   border: none;
-  margin: auto;
   background-color: transparent;
-  /* transform: translate(-50%, -50%); */
-  top: 14px;
-  right: 14px;
-  stroke: var(--primary-text-color-theme-light);
+  position: relative;
+  padding: 0;
+  width: 24px;
+  height: 24px;
 }
 .review-button-close:is(:hover, :focus) {
   background-color: #fcf1e0;
-  box-sizing: border-box;
   border-radius: 50%;
+}
+.review-button-close-icon {
+  transform: translate(-46%, -42%);
+  scale: 8%;
 }
 .is-hidden {
   opacity: 0;
@@ -59,7 +59,6 @@
   color: #111111;
   margin-bottom: 32px;
   max-width: 255px;
-  margin-top: 16px;
 }
 .review-modal-title-org {
   color: #fd9222;
@@ -165,10 +164,10 @@
     padding-bottom: 40px;
     padding-top: 24px;
   }
-  .review-button-close {
+  /* .review-button-close {
     top: 24px;
     right: 24px;
-  }
+  } */
   .review-modal-title {
     font-size: 24px;
     line-height: 1.17;
@@ -234,10 +233,10 @@
     padding-bottom: 40px;
     padding-top: 24px;
   }
-  .review-button-close {
+  /* .review-button-close {
     top: 24px;
     right: 24px;
-  }
+  } */
   .review-modal-title {
     font-size: 24px;
     line-height: 1.17;
