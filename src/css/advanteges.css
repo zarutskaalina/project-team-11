@@ -13,7 +13,7 @@
 
 .advantages-section {
   padding-top: 20px;
-  padding-bottom: 36px;
+  padding-bottom: 20px;
   background-color: #1e1823;
 }
 
@@ -26,7 +26,7 @@
 
 @media screen and (min-width: 768px) {
   .advantages-section {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 86px;
   }
 
