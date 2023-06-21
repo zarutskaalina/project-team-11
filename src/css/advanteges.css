@@ -36,10 +36,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 60px;
+    padding-right: 0px;
   }
 
   .advantages-item {
-    flex-basis: calc(50% - 60px);
+    flex-basis: calc(50% - 32px);
   }
 }
 
@@ -54,8 +55,8 @@
     flex-direction: row;
     gap: 70px;
     flex-wrap: nowrap;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 28px;
+    padding-right: 28px;
   }
 
   .advantages-item {
