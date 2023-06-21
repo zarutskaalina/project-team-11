@@ -1,0 +1,2 @@
+function _defineProperty(e,i,r){return i in e?Object.defineProperty(e,i,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[i]=r,e}var _obj,swiper=new Swiper(".swiper",(_defineProperty(_obj={direction:"horizontal",loop:!1,pagination:{el:".swiper-pagination",clickable:!0},slidesPerView:"auto",spaceBetween:16},"slidesPerView","auto"),_defineProperty(_obj,"spaceBetween",28),_obj)),swiper1=new Swiper(".swiper1",{direction:"horizontal",loop:!1,pagination:{el:".swiper-pagination",clickable:!0},slidesPerView:"auto",spaceBetween:18});
+//# sourceMappingURL=index.298696dc.js.map
