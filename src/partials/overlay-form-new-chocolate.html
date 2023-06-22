@@ -1,0 +1,26 @@
+<!-- ===================subscribe-modal=================== -->
+<div class="subscribe-backdrop overlay js-overlay-modal"></div>
+<div class="subscribe-modal modal" data-modal="1">
+  <button type="button" class="sabscribe-modal-close-btn js-modal-close">
+    <svg class="sabscribe-modal-close-icone" width="24" height="24">
+      <use href="./images/sprite.svg#icon-close-button"></use>
+    </svg>
+  </button>
+  <h2 class="subscribe-modal-title">
+    Explore our<span class="subscribe-modal-title-color">new chocolate</span>
+    first!
+  </h2>
+  <form class="subscribe-form">
+    <label class="subscribe-form-field-wrapper"
+      ><input
+        class="subscribe-form-input"
+        type="email"
+        name="user_email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+        placeholder="Enter your email"
+        required
+    /></label>
+
+    <button type="submit" class="subscribe-form-btn">Submit</button>
+  </form>
+</div>
