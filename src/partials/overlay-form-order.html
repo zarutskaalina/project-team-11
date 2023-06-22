@@ -1,11 +1,7 @@
-<div class="order-buy-backdrop overlay js-overlay-modal">
-  <div class="order-buy modal" data-modal="3">
-    <button class="close-order-buy-button" type="button">
-      <svg
-        class="close-order-buy-button-icon js-modal-close"
-        width="14"
-        height="14"
-      >
+<div class="order-buy-backdrop" data-order>
+  <div class="order-buy modal">
+    <button class="close-order-buy-button" type="button" data-order-close>
+      <svg class="close-order-buy-button-icon js-modal-close" width="14" height="14">
         <use href="./images/top-sellers/spite.svg#icon-close-modal"></use>
       </svg>
     </button>
@@ -14,101 +10,47 @@
     </h3>
     <ul class="order-buy-list list">
       <li class="order-buy-item">
-        <img
-          class="order-buy-img"
-          src="./images/top-sellers/order-buy-1.jpg"
-          alt="chocolate"
-          width="120"
-          height="107"
-        />
+        <img class="order-buy-img" src="./images/top-sellers/order-buy-1.jpg" alt="chocolate" width="120"
+          height="107" />
         <p class="order-buy-text">100 g</p>
       </li>
       <li class="order-buy-item">
-        <img
-          class="order-buy-img"
-          src="./images/top-sellers/order-buy-2.jpg"
-          alt="chocolate"
-          width="120"
-          height="107"
-        />
+        <img class="order-buy-img" src="./images/top-sellers/order-buy-2.jpg" alt="chocolate" width="120"
+          height="107" />
         <p class="order-buy-text">200 g</p>
       </li>
       <li class="order-buy-item">
-        <img
-          class="order-buy-img"
-          src="./images/top-sellers/order-buy-3.jpg"
-          alt="chocolate"
-          width="120"
-          height="107"
-        />
+        <img class="order-buy-img" src="./images/top-sellers/order-buy-3.jpg" alt="chocolate" width="120"
+          height="107" />
         <p class="order-buy-text">300 g</p>
       </li>
     </ul>
     <form class="contact-form">
       <div class="contact-fom-wrapper">
         <label class="contact-form-field-descr" for="user-name">
-          <span class="contact-form-descr-wrapper"
-            >Personal information</span
-          ></label
-        >
+          <span class="contact-form-descr-wrapper">Personal information</span></label>
         <div class="user-name-input-wrapper">
-          <input
-            class="contact-form-input contact-form-input-name"
-            type="text"
-            id="user-name"
-            name="user-name"
-            required
-            pattern="[a-zA-Zа-яА-Яі-Ії-Їґ-Ґє-Є']+"
-            placeholder="Name"
-          />
+          <input class="contact-form-input contact-form-input-name" type="text" id="user-name" name="user-name" required
+            pattern="[a-zA-Zа-яА-Яі-Ії-Їґ-Ґє-Є']+" placeholder="Name" />
 
-          <input
-            class="contact-form-input contact-form-input-surname"
-            type="text"
-            id="user-surname"
-            name="user-surname"
-            required
-            pattern="[a-zA-Zа-яА-Яі-Ії-Їґ-Ґє-Є']+"
-            placeholder="Surname"
-          />
+          <input class="contact-form-input contact-form-input-surname" type="text" id="user-surname" name="user-surname"
+            required pattern="[a-zA-Zа-яА-Яі-Ії-Їґ-Ґє-Є']+" placeholder="Surname" />
         </div>
       </div>
       <div class="contact-fom-wrapper">
         <label class="contact-form-field-descr" for="user-email">Email</label>
         <div class="input-wrapper">
-          <input
-            class="contact-form-input"
-            id="user-email"
-            type="email"
-            name="user-email"
-            required
-            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
-            placeholder="Enter your email"
-          />
+          <input class="contact-form-input" id="user-email" type="email" name="user-email" required
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Enter your email" />
         </div>
       </div>
       <div class="contact-fom-wrapper">
-        <label class="contact-form-field-descr" for="user-tel"
-          >Phone number</label
-        >
+        <label class="contact-form-field-descr" for="user-tel">Phone number</label>
         <div class="input-wrapper">
-          <input
-            class="contact-form-input contact-form-input-tell"
-            id="user-tel"
-            type="tel"
-            name="user-tel"
-            required
-            pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-            title="xx-xxx-xx-xx"
-            placeholder="Phone number"
-          />
+          <input class="contact-form-input contact-form-input-tell" id="user-tel" type="tel" name="user-tel" required
+            pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xx-xxx-xx-xx" placeholder="Phone number" />
           <div class="country-code-container">
-            <svg
-              class="code-img"
-              aria-label="flag of Ukraine"
-              width="32"
-              height="24"
-            >
+            <svg class="code-img" aria-label="flag of Ukraine" width="32" height="24">
               <use href="./images/top-sellers/spite.svg#icon-Frame"></use>
             </svg>
             <p class="phone-code">+380</p>
@@ -116,42 +58,21 @@
         </div>
       </div>
       <div class="contact-fom-wrapper">
-        <label class="contact-form-field-descr" for="user-card"
-          >Card number</label
-        >
+        <label class="contact-form-field-descr" for="user-card">Card number</label>
         <div class="input-wrapper">
-          <input
-            class="contact-form-input"
-            id="user-card"
-            type="text"
-            name="user-card"
-            pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
-            title="xxxx-xxxx-xxxx-xxxx"
-            placeholder="Enter card"
-            required
-          />
-          <svg
-            class="mastercard-icon"
-            aria-label="mastercard logo"
-            width="44"
-            height="30"
-          >
+          <input class="contact-form-input" id="user-card" type="text" name="user-card"
+            pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" title="xxxx-xxxx-xxxx-xxxx" placeholder="Enter card"
+            required />
+          <svg class="mastercard-icon" aria-label="mastercard logo" width="44" height="30">
             <use href="./images/top-sellers/spite.svg#icon-Mastercard"></use>
           </svg>
         </div>
       </div>
       <div class="contact-fom-wrapper">
-        <label class="contact-form-field-descr" for="user-comment"
-          >Comment</label
-        >
+        <label class="contact-form-field-descr" for="user-comment">Comment</label>
         <div class="input-wrapper">
-          <textarea
-            class="contact-form-message"
-            id="user-comment"
-            name="user-comment"
-            placeholder="Enter text"
-            required
-          ></textarea>
+          <textarea class="contact-form-message" id="user-comment" name="user-comment" placeholder="Enter text"
+            required></textarea>
         </div>
       </div>
       <button class="form-send-button" type="submit">Submit</button>
