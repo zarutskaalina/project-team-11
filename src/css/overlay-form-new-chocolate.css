@@ -20,7 +20,7 @@
   padding: 201px 24px 32px 24px;
   border-radius: 15px;
   background-color: #ffffff;
-  background-image: url('../images/sabscribe-images/sabscribe-modal/sabscribe-modal-mobile-img@1x.jpg');
+  background-image: url('../images/sabscribe-images/sabscribe-modal/sabscribe-modal-mobile-img@1x.webp');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
@@ -40,7 +40,7 @@
   screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .subscribe-modal {
-    background-image: url('../images/sabscribe-images/sabscribe-modal/sabscribe-modal-mobile-img@2x.jpg');
+    background-image: url('../images/sabscribe-images/sabscribe-modal/sabscribe-modal-mobile-img@2x.webp');
   }
 }
 
@@ -117,6 +117,9 @@
   text-align: center;
   color: var(--primary-text-color-theme-dark);
   padding: 14px 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .subscribe-form-btn:hover,
@@ -142,7 +145,7 @@
 @media screen and (min-width: 768px) {
   .subscribe-modal {
     padding: 236px 40px 40px 40px;
-    background-image: url('../images/sabscribe-images/sabscribe-modal/sabscribe-modal-tablet-img@1x.jpg');
+    background-image: url('../images/sabscribe-images/sabscribe-modal/sabscribe-modal-tablet-img@1x.webp');
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -150,7 +153,7 @@
     screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .subscribe-modal {
-      background-image: url('../images/sabscribe-images/sabscribe-modal/sabscribe-modal-tablet-img@2x.jpg');
+      background-image: url('../images/sabscribe-images/sabscribe-modal/sabscribe-modal-tablet-img@2x.webp');
     }
   }
 
