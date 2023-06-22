@@ -116,6 +116,10 @@
   left: 50px;
   top: 50%;
   transform: translateY(-50%);
+
+  border-right: 1.5px solid #1111110d;
+  padding-right: 8px;
+  height: 60%;
 }
 .review-modal-textarea {
   width: 100%;
@@ -198,6 +202,8 @@
     left: 24px;
   }
   .review-modal-input-tel {
+    padding-right: 32px;
+
     font-size: 18px;
     line-height: 1.22;
     left: 74px;
