@@ -1,6 +1,6 @@
 @media screen and (min-width: 320px) {
   .review {
-    margin-bottom: 72px;
+    padding-bottom: 72px;
     background-color: #fafafa;
   }
   .review-title {
@@ -142,7 +142,7 @@
 
 @media screen and (min-width: 768px) {
   .review {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .review-title {
     font-size: 24px;
@@ -197,7 +197,7 @@
 
 @media screen and (min-width: 1200px) {
   .review {
-    margin-bottom: 128px;
+    padding-bottom: 128px;
   }
   .review-title {
     font-size: 24px;
