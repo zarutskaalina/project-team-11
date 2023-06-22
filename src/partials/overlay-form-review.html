@@ -1,35 +1,60 @@
-<div class="review-backdrop overlay js-overlay-modal">
-</div>
+<div class="review-backdrop overlay js-overlay-modal"></div>
 <div class="review-modal modal" data-modal="2">
-    <button class="review-button-close js-modal-close" type="button">
-        <svg class="review-button-close-icon">
-            <use href="./images/sprite.svg#icon-close-icon"></use>
+  <button class="review-button-close js-modal-close" type="button">
+    <svg class="review-button-close-icon">
+      <use href="./images/sprite.svg#icon-close-icon"></use>
+    </svg>
+  </button>
+  <h4 class="review-modal-title">
+    LEAVE A REVIEW ABOUT
+    <span class="review-modal-title-org">OUR CHOCOLATE</span>
+  </h4>
+  <form class="review-modal-form">
+    <div class="review-modal-field">
+      <label class="review-input-wrap">
+        <input
+          class="review-modal-input"
+          type="text"
+          name="text"
+          pattern="^[A-Za-zА-Яа-яЁё]{1,32}+ required"
+          placeholder="Name"
+          required
+        />
+      </label>
+      <label class="review-input-wrap">
+        <input
+          class="review-modal-input"
+          type="email"
+          name="email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          placeholder="Enter your email"
+          required
+        />
+      </label>
+      <label class="review-input-wrap">
+        <input
+          class="review-modal-input tel"
+          type="tel"
+          name="phone_nimber"
+          pattern="[0-9]{2}[0-9]{3}[0-9]{4}"
+          placeholder="Phone number"
+          required
+        />
+        <svg class="review-modal-input-icon">
+          <use href="./images/sprite.svg#icon-flag"></use>
         </svg>
-    </button>
-    <h4 class="review-modal-title">LEAVE A REVIEW ABOUT <span class="review-modal-title-org">OUR CHOCOLATE</span></h4>
-    <form class="review-modal-form">
-        <div class="review-modal-field">
-            <label class="review-input-wrap">
-                <input class="review-modal-input" type="text" name="text" pattern="^[A-Za-zА-Яа-яЁё]{1,32}+ required"
-                    placeholder="Name">
-            </label>
-            <label class="review-input-wrap">
-                <input class="review-modal-input" type="email" name="email"
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter your email" required>
-            </label>
-            <label class="review-input-wrap">
-                <input class="review-modal-input tel" type="tel" name="phone_nimber" pattern="[0-9]{2}[0-9]{3}[0-9]{4}"
-                    placeholder="Phone number" required>
-                <svg class="review-modal-input-icon">
-                    <use href="./images/sprite.svg#icon-flag"></use>
-                </svg>
-                <p class="review-modal-input-tel">+380</p>
-            </label>
-        </div>
-        <label class="review-modal-field">
-            <textarea class="review-modal-textarea" id="user-comment" name="user-comment" placeholder="Enter text"
-                required></textarea>
-        </label>
-        <button class="review-modal-button " type="submit">Send</button>
-    </form>
+        <p class="review-modal-input-tel">+380</p>
+      </label>
+    </div>
+    <label class="review-modal-field">
+      <textarea
+        class="review-modal-textarea"
+        id="user-comment"
+        name="user-comment"
+        placeholder="Enter text"
+        required
+      ></textarea>
+    </label>
+    <button class="review-modal-button" type="submit">Send</button>
+  </form>
 </div>
