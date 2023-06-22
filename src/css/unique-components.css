@@ -351,6 +351,9 @@
   color: var(--primary-text-color-theme-light);
   transform: rotateY(180deg);
 
+  border: 1px solid #1111111a;
+  border-radius: 15px;
+
   padding: 28px;
 }
 
