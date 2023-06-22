@@ -25,12 +25,14 @@
   overflow: auto;
   opacity: 0;
   visibility: hidden;
+  z-index: 1;
 }
 
 .order-buy {
   position: absolute;
   left: 50%;
-  transform: translate(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
   padding: 48px;
   background-color: #fafafa;
   border-radius: 15px;
