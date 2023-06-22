@@ -157,6 +157,7 @@
 
 .icon-close-button {
   stroke: var(--primary-text-color-theme-dark);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu-list {
@@ -176,6 +177,7 @@
   line-height: 16px;
   letter-spacing: -0.02em;
   color: var(--primary-text-color-theme-dark);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-social-list {
@@ -196,6 +198,7 @@
   fill-opacity: 0;
   width: 22px;
   height: 22px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-item-header {
   display: flex;
@@ -267,7 +270,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-   
   }
   .mobile-menu-icon {
     display: none;

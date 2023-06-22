@@ -261,7 +261,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 9;
+    -webkit-line-clamp: 8;
     -webkit-box-orient: vertical;
   }
 }
@@ -350,6 +350,9 @@
   background-color: var(--primary-text-color-theme-dark);
   color: var(--primary-text-color-theme-light);
   transform: rotateY(180deg);
+
+  border: 1px solid #1111111a;
+  border-radius: 15px;
 
   padding: 28px;
 }

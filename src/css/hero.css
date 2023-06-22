@@ -1,4 +1,11 @@
 @media screen and (min-width: 320px) {
+  .page-hero-img {
+    padding-bottom: 21px;
+    padding-bottom: 71px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .hero-img {
     background: linear-gradient(
         180deg,
@@ -14,10 +21,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-bottom: 21px;
-    margin-bottom: 71px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-bottom: 40px;
   }
 
   .hero-img-wrapper {
@@ -45,6 +49,8 @@
     background: var(--accent-color);
     border: none;
     border-radius: 100px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .order-btn:hover,
@@ -59,6 +65,8 @@
     border: 1px solid #ffffff;
     border-radius: 100px;
     background-color: transparent;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .scroll-to-how-its-made-btn:hover,
@@ -91,6 +99,7 @@
     line-height: 14px;
     letter-spacing: 1.17;
     color: #ffffff;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .scroll-down-title:hover,
@@ -104,6 +113,7 @@
     background: #ffffff;
     border: none;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .scroll-down-btn:hover,
@@ -114,6 +124,7 @@
   .scroll-down-btn-icon {
     display: flex;
     fill: var(--accent-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .scroll-down-btn-icon:hover,
@@ -123,8 +134,8 @@
 }
 
 @media screen and (max-width: 768px) {
-  .hero-img {
-    margin-bottom: 50px;
+  .page-hero-img {
+    padding-bottom: 50px;
   }
 }
 
