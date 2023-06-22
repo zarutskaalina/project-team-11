@@ -25,7 +25,7 @@
   overflow: auto;
   opacity: 0;
   visibility: hidden;
-  z-index: 100;
+  z-index: 1;
 }
 
 .order-buy {
