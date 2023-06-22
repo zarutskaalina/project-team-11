@@ -55,8 +55,8 @@
     flex-direction: row;
     gap: 70px;
     flex-wrap: nowrap;
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-left: 18px;
+    padding-right: 18px;
   }
 
   .advantages-item {
