@@ -5,7 +5,7 @@
         rgba(17, 17, 17, 0) 0%,
         rgba(17, 17, 17, 0.4) 100%
       ),
-      url(../images/hero/hero-bg-chocolate-covered-cocoa-powder_mobile@2x.jpg);
+      url(../images/hero/hero-bg-chocolate-covered-cocoa-powder_mobile@2x.webp);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -130,7 +130,7 @@
 
 @media screen and (min-width: 768px) {
   .hero-img {
-    background-image: url(../images/hero/hero-bg-chocolate-covered-cocoa-powder_tablet@2x.jpg);
+    background-image: url(../images/hero/hero-bg-chocolate-covered-cocoa-powder_tablet@2x.webp);
     background-size: cover;
     background-position: center;
     width: 704px;
@@ -170,7 +170,7 @@
 
 @media screen and (min-width: 1200px) {
   .hero-img {
-    background-image: url(../images/hero/hero-bg-chocolate-covered-cocoa-powder_desktop@2x.jpg);
+    background-image: url(../images/hero/hero-bg-chocolate-covered-cocoa-powder_desktop@2x.webp);
     background-size: cover;
     background-position: center;
     width: 1136px;
