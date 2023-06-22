@@ -1,3 +1,6 @@
+@import url('../css/subscribe.css');
+@import url('../css/overlay-form-new-chocolate.css');
+
 @import url('../css/header.css');
 @import url('../css/hero.css');
 @import url('../css/advanteges.css');
@@ -20,12 +23,20 @@
   --hover-buttons-color: #fcf1e0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .list {
   list-style: none;
 }
 
 .link {
   text-decoration: none;
+}
+
+body {
+  background: #fafafa;
 }
 
 button {
@@ -57,27 +68,34 @@ body {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 375px;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .container {
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 720px;
+    width: 768px;
   }
 }
 

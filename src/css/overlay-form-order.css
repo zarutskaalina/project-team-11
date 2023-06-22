@@ -1,0 +1,332 @@
+/*=================0rder buy==============*/
+
+.order-buy-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  margin-bottom: 50px;
+}
+
+.order-buy-title-now {
+  color: var(--primary-text-color-theme-light);
+}
+
+.order-buy-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: auto;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.order-buy {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 48px;
+  background-color: #fafafa;
+  border-radius: 15px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.order-buy-backdrop .is-hidden .order-buy {
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.close-order-buy-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-color: transparent;
+  top: 24px;
+  right: 24px;
+}
+
+.order-buy-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.order-buy-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+  height: 196px;
+  padding-top: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 18px;
+  background-color: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+}
+
+.order-buy-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  width: 96px;
+  height: 33px;
+  background-color: #fafafa;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+}
+
+.order-buy-img {
+  margin-bottom: 14px;
+}
+
+.contact-fom-wrapper {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.contact-form-field-descr {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.contact-form-input-surname,
+.contact-form-input-name {
+  max-width: 246px;
+}
+
+.contact-form-message,
+.contact-form-input {
+  width: 100%;
+  padding: 22px 24px;
+  border-color: transparent;
+  background-color: transparent;
+  outline: transparent;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 13px;
+}
+
+.contact-form-message {
+  height: 137px;
+  resize: none;
+}
+
+.contact-form-input-name {
+  margin-bottom: 14px;
+}
+
+.form-send-button {
+  padding: 14px 40px;
+  min-width: 133px;
+  height: 45px;
+  background-color: var(--accent-color);
+  border-radius: 100px;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #ffffff;
+}
+
+.contact-form-input::placeholder,
+.contact-form-message::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
+}
+
+.country-code-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  box-shadow: 2.72246px 0px 0px rgba(0, 0, 0, 0.1);
+  width: 125px;
+}
+
+.contact-form-input-tell {
+  padding-left: 177px;
+}
+
+.code-img {
+  margin-right: 18px;
+}
+
+.mastercard-icon {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+}
+
+.phone-code {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+}
+
+/*============== mobile =============*/
+
+@media screen and (max-width: 767px) {
+  .order-buy {
+    width: 311px;
+    height: 994px;
+    padding: 24px 32px;
+  }
+
+  .order-buy-title {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 32px;
+  }
+
+  .close-order-buy-button {
+    top: 14px;
+    right: 14px;
+  }
+
+  .order-buy-list {
+    display: flex;
+    flex-direction: column;
+    column-gap: 8px;
+    margin-bottom: 32px;
+  }
+
+  .order-buy-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 263px;
+    height: 85px;
+    padding: 8px 16px;
+  }
+
+  .order-buy-img {
+    width: 84px;
+    height: 69px;
+    margin-bottom: 0;
+  }
+
+  .order-buy-text {
+    width: 73px;
+    height: 29px;
+  }
+
+  .contact-form-field-descr {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+
+  .contact-form-input-surname,
+  .contact-form-input-name {
+    width: 100%;
+  }
+
+  .contact-form-message,
+  .contact-form-input {
+    padding: 18px 14px;
+    border-radius: 8px;
+  }
+
+  .contact-form-message {
+    height: 91px;
+  }
+
+  .form-send-button {
+    padding: 12px 28px;
+    min-width: 109px;
+    height: 41px;
+    background-color: var(--accent-color);
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #ffffff;
+  }
+
+  .contact-form-input::placeholder,
+  .contact-form-message::placeholder {
+    font-size: 14px;
+    line-height: 1.21;
+  }
+
+  .contact-form-input {
+    height: 45px;
+  }
+
+  .country-code-container {
+    left: 18px;
+    box-shadow: 2.72246px 0px 0px rgba(0, 0, 0, 0.1);
+    width: 74px;
+  }
+
+  .contact-form-input-tell {
+    padding-left: 106px;
+  }
+
+  .code-img {
+    margin-right: 8px;
+    width: 24px;
+  }
+
+  .mastercard-icon {
+    position: absolute;
+    top: 50%;
+    right: 14px;
+  }
+
+  .phone-code {
+    font-size: 14px;
+    line-height: 1.21;
+  }
+
+  .mastercard-icon {
+    width: 32px;
+    height: 21px;
+  }
+}
+
+/*============= desktop =================*/
+
+@media screen and (min-width: 1200px) {
+  .form-send-button:hover,
+  .form-send-button:focus {
+    background-color: var(--hover-buttons-color);
+    color: var(--accent-color);
+  }
+}

@@ -1,0 +1,161 @@
+/*================= Top Sellers ==================*/
+
+.top-sellers-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  margin-bottom: 50px;
+}
+
+.top-sellers-title-sellers {
+  color: var(--primary-text-color-theme-light);
+}
+
+.top-sellers-images-list {
+  display: flex;
+  justify-content: center;
+}
+
+.top-sellers-img {
+  border-radius: 15px;
+}
+
+.top-sellers-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #111111;
+  max-width: 306px;
+}
+
+.open-form-buy-button {
+  display: flex;
+  padding: 12px 28px;
+  min-width: 120px;
+  height: 40px;
+  background-color: var(--accent-color);
+  border-radius: 100px;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #ffffff;
+}
+
+/*=============== mobile ============*/
+
+@media screen and (max-width: 768px) {
+  .top-sellers {
+    margin-bottom: 72px;
+  }
+
+  .top-sellers-title {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 32px;
+  }
+
+  .top-sellers-images-list {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .top-sellers-image-item-bar {
+    display: none;
+  }
+
+  .top-sellers-img {
+    width: 100%;
+  }
+
+  .top-sellers-img-cofee {
+    margin-bottom: 20px;
+  }
+
+  .top-sellers-mobile-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #111111;
+    max-width: 306px;
+    margin-bottom: 32px;
+  }
+
+  .top-sellers-text {
+    display: none;
+  }
+
+  .open-form-buy-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*================= tablet =============*/
+
+@media screen and (min-width: 768px) {
+  .top-sellers {
+    margin-bottom: 100px;
+  }
+
+  .top-sellers-mobile-text {
+    display: none;
+  }
+
+  .top-sellers-image-item-bar {
+    display: none;
+  }
+
+  .top-sellers-images-list {
+    gap: 16px;
+    flex-basis: calc((100% - 16px) / 2);
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+
+  .info-button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .open-form-buy-button {
+    padding: 14px 40px;
+    min-width: 162px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #ffffff;
+  }
+}
+
+/*================== desctop ============*/
+
+@media screen and (min-width: 1200px) {
+  .top-sellers {
+    margin-bottom: 128px;
+  }
+
+  .top-sellers-image-item-bar {
+    display: flex;
+  }
+
+  .top-sellers-text {
+    min-width: 407px;
+  }
+
+  .top-sellers-images-list {
+    flex-basis: calc((100% - 32px) / 3);
+  }
+
+  .open-form-buy-button:hover,
+  .open-form-buy-button:focus {
+    background-color: var(--hover-buttons-color);
+    color: var(--accent-color);
+  }
+}
