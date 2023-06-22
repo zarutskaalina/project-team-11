@@ -151,7 +151,10 @@
   font-size: 14px;
   line-height: 1.21;
   color: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .review-modal-button:is(:hover, :focus) {
   color: #fd9222;
   background: #fcf1e0;
